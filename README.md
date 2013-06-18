@@ -22,7 +22,7 @@ setInterval(function() {
 }, 1000)
 
 exp.on('data', function(level) {
-  console.log('Player has reached level ' + level + ' with ' + this.points + ' exp!')
+  console.log('Player has reached level ' + level + ' with ' + exp.points + ' exp!')
 })
 ```
 
