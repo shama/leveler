@@ -1,0 +1,34 @@
+{
+  "name": "leveler",
+  "description": "A streaming stat leveling API.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shama/leveler",
+  "author": {
+    "name": "Kyle Robinson Young",
+    "email": "kyle@dontkry.com",
+    "url": "http://dontkry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/leveler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/leveler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shama/leveler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "inherits": "~2.0.0"
+  },
+  "devDependencies": {
+  }
+}
