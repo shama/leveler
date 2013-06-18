@@ -9,7 +9,7 @@ var leveler = require('leveler')
 
 // Create a leveling thing
 var exp = leveler(function(points) {
-  return Math.floor(Math.floor(25 + Math.sqrt(625 + 100 * x)) / 50)
+  return Math.floor(Math.floor(25 + Math.sqrt(625 + 100 * points)) / 50)
 
   // or if you need async emit 'levelup' and return false
   // exp.emit('levelup', level)
